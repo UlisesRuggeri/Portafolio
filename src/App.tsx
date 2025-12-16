@@ -22,7 +22,7 @@ export function App() {
     setSending(true);
     try {
 
-      const res = await fetch("http://localhost:8080/api/emails", {
+      const res = await fetch("https://emailapi-h1fg.onrender.com/api/emails", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ Tema: asunto, Cuerpo: mensaje }),
