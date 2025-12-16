@@ -53,7 +53,7 @@ export function App() {
 
           <div className="flex items-center gap-3">
             <a
-              href="/Ulises_Ruggeri_Backend_ASPNET_Core.pdf"
+              href="public\Cv Ulises Ruggeri - Backend Developer.pdf"
               download
             >
               <Button variant="ghost">Descargar CV</Button>
