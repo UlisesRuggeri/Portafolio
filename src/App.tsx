@@ -52,7 +52,13 @@ export function App() {
           </div>
 
           <div className="flex items-center gap-3">
-            <Button variant="ghost">Descargar CV</Button>
+            <a
+              href="/Ulises_Ruggeri_Backend_ASPNET_Core.pdf"
+              download
+            >
+              <Button variant="ghost">Descargar CV</Button>
+            </a>
+
             <ModeToggle />
           </div>
         </header>
