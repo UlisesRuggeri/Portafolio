@@ -33,7 +33,7 @@ const projects: Project[] = [
         shortDescription:
             "Api Rest que consulta Google Places (Nearby Search) para obtener restaurantes cercanos a unas coordenadas.",
         stack: ["ASP.NET Core", "SQL Server"],
-        repo: "https://github.com/UlisesRuggeri/portfolio",
+        repo: "https://github.com/UlisesRuggeri/FoodLocator",
     },
     {
         id: "p3",
