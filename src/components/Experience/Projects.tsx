@@ -29,10 +29,10 @@ const projects: Project[] = [
     },
     {
         id: "p2",
-        title: "Portfolio Personal",
+        title: "FoodLocator",
         shortDescription:
-            "Aplicación React y ASP.NET Core diseñada para mostrar experiencia, certificaciones y proyectos, con backend propio para manejo de contacto y correos electrónicos.",
-        stack: ["React", "TypeScript", "ASP.NET Core", "TailwindCSS", "Docker"],
+            "Api Rest que consulta Google Places (Nearby Search) para obtener restaurantes cercanos a unas coordenadas.",
+        stack: ["ASP.NET Core", "SQL Server"],
         repo: "https://github.com/UlisesRuggeri/portfolio",
     },
     {

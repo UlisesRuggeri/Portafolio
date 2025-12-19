@@ -182,7 +182,7 @@ export function App() {
                             onChange={(e: any) => setMensaje(e.target.value)}
                           />
                           <Button type="submit" className="cursor-pointer" disabled={sending}>
-                            {sending ? "Enviando..." : "Enviar"}
+                            {sending ? "Enviando. Espera unos segundos" : "Enviar"}
                           </Button>
                         </form>
                       </TabsContent>
